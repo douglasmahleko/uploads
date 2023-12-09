@@ -2,12 +2,11 @@
     "canisters": {
         "uploads": {
             "type": "custom",
-            "main": "src/index.ts",
-            "candid": "src/index.did",
             "build": "npx azle uploads",
-            "wasm": ".azle/uploads/uploads.wasm",
-            "gzip": true
+            "root": "src",
+            "ts": "src/index.ts",
+            "candid": "src/index.did",
+            "wasm": ".azle/uploads/uploads.wasm.gz"
         }
     }
 }
-
